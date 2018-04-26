@@ -33,6 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sayHello()
         sayTwoBranch()
         sayByebye()
+        run()
     }
     
     func sayHello() {
@@ -45,6 +46,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func sayByebye() {
         print("sayByebye")
+    }
+    
+    func run() {
+        print("runle hejiu")
     }
     
     override func viewWillAppear(_ animated: Bool) {
