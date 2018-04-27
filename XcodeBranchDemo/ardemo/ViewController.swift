@@ -50,7 +50,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func walk() {
-        print("walklehenjiu")
+        print("walkjjjjljljljljjjjjllllllllll")
     }
     
     func run() {
