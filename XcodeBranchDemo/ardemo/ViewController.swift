@@ -38,6 +38,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sayByebye()
         walk()
         run()
+        
+        
+        
     }
     
     func sayHello() {
