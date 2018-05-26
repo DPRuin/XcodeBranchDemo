@@ -39,8 +39,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         walk()
         run()
         
+        fuckYou(person: "zhang")
         
-        
+    }
+    
+    func fuckYou(person: String) {
+        print("funckyou\(person)")
     }
     
     func sayHello() {
