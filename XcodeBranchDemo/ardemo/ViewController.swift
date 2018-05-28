@@ -38,9 +38,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sayByebye()
         walk()
         run()
-        
         fuckYou(person: "zhang")
         
+        whatShouldIdo()
     }
     
     func fuckYou(person: String) {
@@ -65,6 +65,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func run() {
         print("runle hejiu")
+    }
+    
+    func whatShouldIdo() {
+        print("whatShouldIdo")
     }
     
     override func viewWillAppear(_ animated: Bool) {
