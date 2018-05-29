@@ -14,9 +14,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,6 +38,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         fuckYou(person: "zhang")
         
         whatShouldIdo()
+        unityAndARKitARCore()
     }
     
     func fuckYou(person: String) {
@@ -69,6 +67,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func whatShouldIdo() {
         print("whatShouldIdo")
+    }
+    
+    func unityAndARKitARCore() {
+        print("unityAndARKitARCore")
+        print("learnunity???")
     }
     
     override func viewWillAppear(_ animated: Bool) {
