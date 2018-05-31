@@ -39,6 +39,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         whatShouldIdo()
         unityAndARKitARCore()
+        
+        // 什么是metal
+        whatIsMetal()
+        
+        
     }
     
     func fuckYou(person: String) {
@@ -74,6 +79,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         print("learnunity???")
     }
     
+    func whatIsMetal() {
+        print("whatIsMetal")
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
