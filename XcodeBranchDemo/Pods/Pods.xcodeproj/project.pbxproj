@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10520D400190016EE6F3A88CAE2DC608 /* DPWatermark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 335B3856010E5777ACF0A23AF6C6C8C3 /* DPWatermark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		116559A46B4FF578B18259F63A385CF0 /* Watermark+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C33FAC8CDE4739C88BAC5287BCA245 /* Watermark+Extension.swift */; };
+		162F24B01C8449D1BEA22E849081C007 /* DPWatermark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C898192D1157259D8EE99309D858278 /* DPWatermark-dummy.m */; };
+		5B5086BCDA37A6F89DB3C6A6B070D994 /* Pods-ardemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FA35F6E17A62929C4EB66AE1636F37 /* Pods-ardemo-dummy.m */; };
+		90E46722272301787514DFD34F0ECD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE888E9966DA841B9384EF920AE8F327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7B17B78F79908F1C574E85D9CD0D2D0 /* Pods-ardemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EEA0096F89DD1AE9411CD9A3AA8C8F /* Pods-ardemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421CE95F6C4B7C0BF2E169E2959DA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39B651DD262D20FF9E3B57BFA0561B9;
+			remoteInfo = DPWatermark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002165E020204D3367C059B154EFC71F /* Pods-ardemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ardemo.release.xcconfig"; sourceTree = "<group>"; };
+		190AA3D812CCFEB5957A41AB9AF0E9E2 /* DPWatermark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPWatermark-prefix.pch"; sourceTree = "<group>"; };
+		19BEDF3B47EBBF7B0ABB697B41BBFF63 /* Pods-ardemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ardemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		26B7217EB9068CF67915A989E73BD620 /* Pods-ardemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ardemo-frameworks.sh"; sourceTree = "<group>"; };
+		2F4AABF442CCC4D97008D657F0B17178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335B3856010E5777ACF0A23AF6C6C8C3 /* DPWatermark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPWatermark-umbrella.h"; sourceTree = "<group>"; };
+		346914F13D3A9EC3069F439D70A63930 /* DPWatermark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DPWatermark.modulemap; sourceTree = "<group>"; };
+		61E16DB569627A979C6E198C3854B6A8 /* Pods_ardemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ardemo.framework; path = "Pods-ardemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69FA35F6E17A62929C4EB66AE1636F37 /* Pods-ardemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ardemo-dummy.m"; sourceTree = "<group>"; };
+		6C898192D1157259D8EE99309D858278 /* DPWatermark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPWatermark-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB631EC72F82B11C542DEAE287F8612 /* Pods-ardemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ardemo.modulemap"; sourceTree = "<group>"; };
+		A1C33FAC8CDE4739C88BAC5287BCA245 /* Watermark+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Watermark+Extension.swift"; path = "MetalWatermark/MetalWatermark/DPWatermark/Watermark+Extension.swift"; sourceTree = "<group>"; };
+		AE18A7B82E9A9DFFB449BAAB65DBA87A /* Pods-ardemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ardemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFDE504B4E90045B4496B2EEE1C8C87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EEA0096F89DD1AE9411CD9A3AA8C8F /* Pods-ardemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ardemo-umbrella.h"; sourceTree = "<group>"; };
+		E7B5B7D3BAAE2C7DA19E5986D785CB10 /* Pods-ardemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ardemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9717B17B6DA47660C10959F71B05D72 /* DPWatermark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPWatermark.xcconfig; sourceTree = "<group>"; };
+		F1236EA0504116FD38734F7AEEDDA331 /* DPWatermark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DPWatermark.framework; path = DPWatermark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC454E8567F78EDFE5F8AC4B03B20B25 /* Pods-ardemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ardemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F45588521DB874AE6BCDC0ED674A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE888E9966DA841B9384EF920AE8F327 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D246CFCC28545BB89DD7A53321AD8343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E46722272301787514DFD34F0ECD09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077B3BE6162E0462C6619BE1F6E35C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DD052C18A1AEEE229E36AC9CB703052 /* DPWatermark */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F2C09C7B81C13C299941C8C16DBA140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1236EA0504116FD38734F7AEEDDA331 /* DPWatermark.framework */,
+				61E16DB569627A979C6E198C3854B6A8 /* Pods_ardemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				077B3BE6162E0462C6619BE1F6E35C27 /* Pods */,
+				5F2C09C7B81C13C299941C8C16DBA140 /* Products */,
+				CA5B2D723E9352503B6E6CB731818594 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD052C18A1AEEE229E36AC9CB703052 /* DPWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				A1C33FAC8CDE4739C88BAC5287BCA245 /* Watermark+Extension.swift */,
+				CA9BDA5778FFAC0302F6E982B33D4388 /* Support Files */,
+			);
+			name = DPWatermark;
+			path = DPWatermark;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4AD60D78112847BA609E445A3F977E4 /* Pods-ardemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDFDE504B4E90045B4496B2EEE1C8C87 /* Info.plist */,
+				9CB631EC72F82B11C542DEAE287F8612 /* Pods-ardemo.modulemap */,
+				E7B5B7D3BAAE2C7DA19E5986D785CB10 /* Pods-ardemo-acknowledgements.markdown */,
+				19BEDF3B47EBBF7B0ABB697B41BBFF63 /* Pods-ardemo-acknowledgements.plist */,
+				69FA35F6E17A62929C4EB66AE1636F37 /* Pods-ardemo-dummy.m */,
+				26B7217EB9068CF67915A989E73BD620 /* Pods-ardemo-frameworks.sh */,
+				FC454E8567F78EDFE5F8AC4B03B20B25 /* Pods-ardemo-resources.sh */,
+				C4EEA0096F89DD1AE9411CD9A3AA8C8F /* Pods-ardemo-umbrella.h */,
+				AE18A7B82E9A9DFFB449BAAB65DBA87A /* Pods-ardemo.debug.xcconfig */,
+				002165E020204D3367C059B154EFC71F /* Pods-ardemo.release.xcconfig */,
+			);
+			name = "Pods-ardemo";
+			path = "Target Support Files/Pods-ardemo";
+			sourceTree = "<group>";
+		};
+		CA5B2D723E9352503B6E6CB731818594 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD60D78112847BA609E445A3F977E4 /* Pods-ardemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA9BDA5778FFAC0302F6E982B33D4388 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				346914F13D3A9EC3069F439D70A63930 /* DPWatermark.modulemap */,
+				E9717B17B6DA47660C10959F71B05D72 /* DPWatermark.xcconfig */,
+				6C898192D1157259D8EE99309D858278 /* DPWatermark-dummy.m */,
+				190AA3D812CCFEB5957A41AB9AF0E9E2 /* DPWatermark-prefix.pch */,
+				335B3856010E5777ACF0A23AF6C6C8C3 /* DPWatermark-umbrella.h */,
+				2F4AABF442CCC4D97008D657F0B17178 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DPWatermark";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D501FB60578E7721F8EC3C3C61EC008 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B17B78F79908F1C574E85D9CD0D2D0 /* Pods-ardemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A965AA1DB372A69627CC40D880A2FF11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10520D400190016EE6F3A88CAE2DC608 /* DPWatermark-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50F64E2D84AC6447FFEDEC857B8AE28A /* Pods-ardemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3D1DC229294C9220E37CF325E7D53 /* Build configuration list for PBXNativeTarget "Pods-ardemo" */;
+			buildPhases = (
+				397648E20BE18D4E0C3BEC882BC557C8 /* Sources */,
+				13F45588521DB874AE6BCDC0ED674A86 /* Frameworks */,
+				9D501FB60578E7721F8EC3C3C61EC008 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6561905F845E57314FF0A1DA657B9856 /* PBXTargetDependency */,
+			);
+			name = "Pods-ardemo";
+			productName = "Pods-ardemo";
+			productReference = 61E16DB569627A979C6E198C3854B6A8 /* Pods_ardemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F39B651DD262D20FF9E3B57BFA0561B9 /* DPWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD443A82366D4ED5267C7F031E24A00 /* Build configuration list for PBXNativeTarget "DPWatermark" */;
+			buildPhases = (
+				D8EC8F0CAC039854D4F5A9968A578CDA /* Sources */,
+				D246CFCC28545BB89DD7A53321AD8343 /* Frameworks */,
+				A965AA1DB372A69627CC40D880A2FF11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPWatermark;
+			productName = DPWatermark;
+			productReference = F1236EA0504116FD38734F7AEEDDA331 /* DPWatermark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F2C09C7B81C13C299941C8C16DBA140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39B651DD262D20FF9E3B57BFA0561B9 /* DPWatermark */,
+				50F64E2D84AC6447FFEDEC857B8AE28A /* Pods-ardemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397648E20BE18D4E0C3BEC882BC557C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5086BCDA37A6F89DB3C6A6B070D994 /* Pods-ardemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EC8F0CAC039854D4F5A9968A578CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F24B01C8449D1BEA22E849081C007 /* DPWatermark-dummy.m in Sources */,
+				116559A46B4FF578B18259F63A385CF0 /* Watermark+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6561905F845E57314FF0A1DA657B9856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DPWatermark;
+			target = F39B651DD262D20FF9E3B57BFA0561B9 /* DPWatermark */;
+			targetProxy = 421CE95F6C4B7C0BF2E169E2959DA581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		206B85239B8230C7D136215F11EA186A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9717B17B6DA47660C10959F71B05D72 /* DPWatermark.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPWatermark/DPWatermark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPWatermark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPWatermark/DPWatermark.modulemap";
+				PRODUCT_NAME = DPWatermark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34BC776E213897F5F325E8477B340B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9717B17B6DA47660C10959F71B05D72 /* DPWatermark.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPWatermark/DPWatermark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPWatermark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPWatermark/DPWatermark.modulemap";
+				PRODUCT_NAME = DPWatermark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		350D6C92AA7D3091926A11683160825A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002165E020204D3367C059B154EFC71F /* Pods-ardemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ardemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ardemo/Pods-ardemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ardemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC4C90FF83749017CC34377B362DB2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE18A7B82E9A9DFFB449BAAB65DBA87A /* Pods-ardemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ardemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ardemo/Pods-ardemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ardemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3D1DC229294C9220E37CF325E7D53 /* Build configuration list for PBXNativeTarget "Pods-ardemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4C90FF83749017CC34377B362DB2F5 /* Debug */,
+				350D6C92AA7D3091926A11683160825A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD443A82366D4ED5267C7F031E24A00 /* Build configuration list for PBXNativeTarget "DPWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206B85239B8230C7D136215F11EA186A /* Debug */,
+				34BC776E213897F5F325E8477B340B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

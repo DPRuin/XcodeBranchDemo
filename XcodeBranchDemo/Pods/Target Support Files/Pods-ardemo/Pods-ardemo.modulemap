@@ -1,0 +1,6 @@
+framework module Pods_ardemo {
+  umbrella header "Pods-ardemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

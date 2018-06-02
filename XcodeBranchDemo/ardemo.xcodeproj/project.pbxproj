@@ -13,9 +13,12 @@
 		7E05FC71206E1EC500BB4515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E05FC6F206E1EC500BB4515 /* Main.storyboard */; };
 		7E05FC73206E1EC700BB4515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E05FC72206E1EC700BB4515 /* Assets.xcassets */; };
 		7E05FC76206E1EC700BB4515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E05FC74206E1EC700BB4515 /* LaunchScreen.storyboard */; };
+		DCAF23DAB48AAFCDE5162F42 /* Pods_ardemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476ACB232E6094F7BACDCBDA /* Pods_ardemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		476ACB232E6094F7BACDCBDA /* Pods_ardemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ardemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7039E1FA3EA233ED9A246A /* Pods-ardemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ardemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ardemo/Pods-ardemo.release.xcconfig"; sourceTree = "<group>"; };
 		7E05FC66206E1EC500BB4515 /* ardemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ardemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E05FC69206E1EC500BB4515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E05FC6B206E1EC500BB4515 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7E05FC72206E1EC700BB4515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E05FC75206E1EC700BB4515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E05FC77206E1EC700BB4515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF1F1936151785A52B7A0A8 /* Pods-ardemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ardemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ardemo/Pods-ardemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAF23DAB48AAFCDE5162F42 /* Pods_ardemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				7E05FC68206E1EC500BB4515 /* ardemo */,
 				7E05FC67206E1EC500BB4515 /* Products */,
+				E7552252D3F07091AB014D1E /* Pods */,
+				C660D78918A0FF45A6B02DBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = ardemo;
 			sourceTree = "<group>";
 		};
+		C660D78918A0FF45A6B02DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476ACB232E6094F7BACDCBDA /* Pods_ardemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7552252D3F07091AB014D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1F1936151785A52B7A0A8 /* Pods-ardemo.debug.xcconfig */,
+				6B7039E1FA3EA233ED9A246A /* Pods-ardemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E05FC7A206E1EC700BB4515 /* Build configuration list for PBXNativeTarget "ardemo" */;
 			buildPhases = (
+				EE2B680B22A4749149AD1000 /* [CP] Check Pods Manifest.lock */,
 				7E05FC62206E1EC500BB4515 /* Sources */,
 				7E05FC63206E1EC500BB4515 /* Frameworks */,
 				7E05FC64206E1EC500BB4515 /* Resources */,
+				A027DCD5088F8508E240A05D /* [CP] Embed Pods Frameworks */,
+				8F4BB0AD83EFBCC7786E920E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F4BB0AD83EFBCC7786E920E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ardemo/Pods-ardemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A027DCD5088F8508E240A05D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ardemo/Pods-ardemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DPWatermark/DPWatermark.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DPWatermark.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ardemo/Pods-ardemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2B680B22A4749149AD1000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ardemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E05FC62206E1EC500BB4515 /* Sources */ = {
@@ -282,15 +363,13 @@
 		};
 		7E05FC7B206E1EC700BB4515 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF1F1936151785A52B7A0A8 /* Pods-ardemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NV32R76SX;
 				INFOPLIST_FILE = ardemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.betasmart.ardemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -300,15 +379,13 @@
 		};
 		7E05FC7C206E1EC700BB4515 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7039E1FA3EA233ED9A246A /* Pods-ardemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NV32R76SX;
 				INFOPLIST_FILE = ardemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.betasmart.ardemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
