@@ -40,10 +40,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whatShouldIdo()
         unityAndARKitARCore()
         
-        // 什么是metal
+        // 什么是Metal
         whatIsMetal()
-        
-        
+        // 什么是CoreML
+        whatIsCoreML()
     }
     
     func fuckYou(person: String) {
@@ -82,6 +82,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func whatIsMetal() {
         print("whatIsMetal")
     }
+    
+    func whatIsCoreML() {
+        print("whatIsCoreML")
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
