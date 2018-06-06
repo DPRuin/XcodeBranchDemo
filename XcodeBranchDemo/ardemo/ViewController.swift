@@ -44,6 +44,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whatIsMetal()
         // 什么是CoreML
         whatIsCoreML()
+        
+        whatIsMutiple3DModelsAndMutipleAnimations()
     }
     
     func fuckYou(person: String) {
@@ -85,6 +87,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func whatIsCoreML() {
         print("whatIsCoreML")
+    }
+    
+    func whatIsMutiple3DModelsAndMutipleAnimations() {
+        print("whatIsMutiple3DModelsAndMutipleAnimations")
     }
     
     override func viewWillAppear(_ animated: Bool) {
