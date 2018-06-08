@@ -44,8 +44,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whatIsMetal()
         // 什么是CoreML
         whatIsCoreML()
-        
+        // 多模型多动画
         whatIsMutiple3DModelsAndMutipleAnimations()
+        // 无限水平面
+        infiniteHorizontalPlane()
     }
     
     func fuckYou(person: String) {
@@ -91,6 +93,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func whatIsMutiple3DModelsAndMutipleAnimations() {
         print("whatIsMutiple3DModelsAndMutipleAnimations")
+    }
+    
+    func infiniteHorizontalPlane() {
+        print("infiniteHorizontalPlane")
     }
     
     override func viewWillAppear(_ animated: Bool) {
