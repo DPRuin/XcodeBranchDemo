@@ -48,6 +48,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whatIsMutiple3DModelsAndMutipleAnimations()
         // 无限水平面
         infiniteHorizontalPlane()
+        // ARDragon
+        arDragon()
     }
     
     func fuckYou(person: String) {
@@ -97,6 +99,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func infiniteHorizontalPlane() {
         print("infiniteHorizontalPlane")
+    }
+    
+    func arDragon() {
+        print("arDragon怎么做的平面检测，圆凳子上竟然识别到平面，放置恐龙")
     }
     
     override func viewWillAppear(_ animated: Bool) {
