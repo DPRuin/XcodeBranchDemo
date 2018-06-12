@@ -50,6 +50,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         infiniteHorizontalPlane()
         // ARDragon
         arDragon()
+        duanwuGoHome()
+        
     }
     
     func fuckYou(person: String) {
@@ -103,6 +105,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func arDragon() {
         print("arDragon怎么做的平面检测，圆凳子上竟然识别到平面，放置恐龙")
+    }
+    
+    func duanwuGoHome() {
+        print("端午节GoHome")
     }
     
     override func viewWillAppear(_ animated: Bool) {
