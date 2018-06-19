@@ -51,8 +51,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // ARDragon
         arDragon()
         duanwuGoHome()
-        
-    }
+        whatShouldIdo(thing: "visa")
+        }
     
     func fuckYou(person: String) {
         print("funckyou\(person)")
@@ -109,6 +109,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func duanwuGoHome() {
         print("端午节GoHome")
+    }
+    
+    func whatShouldIdo( thing: String) {
+        print("whatShouldIdo-我该怎么办\(thing)")
     }
     
     override func viewWillAppear(_ animated: Bool) {
