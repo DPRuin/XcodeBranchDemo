@@ -56,6 +56,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func fuckYou(person: String) {
         print("funckyou\(person)")
+        print("cizhima cizhima cizhima")
     }
     
     func sayHello() {
