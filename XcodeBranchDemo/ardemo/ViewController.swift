@@ -23,7 +23,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene = scene
         
         print("another_branch")
-        sayHello()
         sayTwoBranch()
         sayByebye()
         walk()
@@ -47,6 +46,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // 课余时间做个AR游戏吧
         makeARDragonGame()
+        
     }
     
     private func makeARDragonGame() {
@@ -58,9 +58,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         print("cizhima cizhima cizhima")
     }
     
-    func sayHello() {
-        print("sayHello")
-    }
     
     func sayTwoBranch() {
         print("sayTwoBranch")
