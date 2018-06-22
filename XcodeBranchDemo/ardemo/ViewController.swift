@@ -17,16 +17,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Set the view's delegate
         sceneView.delegate = self
-        
-        // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
-        
-        // Create a new scene
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // Set the scene to the view
         sceneView.scene = scene
         
         print("another_branch")
@@ -48,11 +41,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whatIsMutiple3DModelsAndMutipleAnimations()
         // 无限水平面
         infiniteHorizontalPlane()
+        
         // ARDragon
         arDragon()
-        duanwuGoHome()
-        whatShouldIdo(thing: "visa")
-        }
+        
+        // 课余时间做个AR游戏吧
+        makeARDragonGame()
+    }
+    
+    private func makeARDragonGame() {
+        print("课余时间做个AR游戏吧")
+    }
     
     func fuckYou(person: String) {
         print("funckyou\(person)")
