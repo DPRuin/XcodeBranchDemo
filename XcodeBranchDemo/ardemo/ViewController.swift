@@ -23,7 +23,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene = scene
         
         print("another_branch")
-        sayByebye()
         walk()
         run()
         fuckYou(person: "zhang")
@@ -55,10 +54,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func fuckYou(person: String) {
         print("funckyou\(person)")
         print("cizhima cizhima cizhima")
-    }
-    
-    func sayByebye() {
-        print("sayByebye")
     }
     
     func walk() {
