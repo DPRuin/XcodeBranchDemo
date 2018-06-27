@@ -21,13 +21,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
         sceneView.scene = scene
-        
-        print("another_branch")
-        walk()
-        run()
         fuckYou(person: "zhang")
         
-        whatShouldIdo()
         unityAndARKitARCore()
         
         // 什么是Metal
@@ -56,18 +51,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         print("cizhima cizhima cizhima")
     }
     
-    func walk() {
-        print("walkjjjjljljljljjjjjllllllllll")
-    }
-    
-    func run() {
-        print("runle hejiu")
-    }
-    
-    func whatShouldIdo() {
-        print("whatShouldIdo")
-    }
-    
     func unityAndARKitARCore() {
         print("unityAndARKitARCore")
         print("learnunity???")
@@ -91,10 +74,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func arDragon() {
         print("arDragon怎么做的平面检测，圆凳子上竟然识别到平面，放置恐龙")
-    }
-    
-    func duanwuGoHome() {
-        print("端午节GoHome")
     }
     
     func whatShouldIdo( thing: String) {
