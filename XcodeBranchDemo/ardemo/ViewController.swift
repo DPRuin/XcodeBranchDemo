@@ -76,10 +76,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         print("arDragon怎么做的平面检测，圆凳子上竟然识别到平面，放置恐龙")
     }
     
-    func whatShouldIdo( thing: String) {
-        print("whatShouldIdo-我该怎么办\(thing)")
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
