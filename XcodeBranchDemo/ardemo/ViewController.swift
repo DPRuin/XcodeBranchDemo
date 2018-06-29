@@ -39,7 +39,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // 课余时间做个AR游戏吧
         makeARDragonGame()
+        whaitIsgugeAnimation()
         
+    }
+    
+    func whaitIsgugeAnimation() {
+        print("骨骼动画深入分析")
     }
     
     private func makeARDragonGame() {
