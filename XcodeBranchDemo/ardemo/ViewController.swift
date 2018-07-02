@@ -41,7 +41,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         makeARDragonGame()
         whaitIsgugeAnimation()
         xiaofanglizhile()
-        
+        mayahowtogroup()
+    }
+    
+    func mayahowtogroup() {
+        print("maya怎么分组")
     }
     
     func xiaofanglizhile() {
