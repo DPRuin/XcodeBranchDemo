@@ -42,6 +42,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whaitIsgugeAnimation()
         xiaofanglizhile()
         mayahowtogroup()
+        
+        beijingzufang()
+    }
+    
+    func beijingzufang() {
+        print("北京租房")
     }
     
     func mayahowtogroup() {
