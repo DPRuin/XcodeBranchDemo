@@ -44,10 +44,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         mayahowtogroup()
         
         beijingzufang()
+        beijingzufang2()
     }
     
     func beijingzufang() {
-        print("北京租房")
+        print("北京租房，北京租房，北京租房，北京租房")
+    }
+    func beijingzufang2() {
+        print("北京租房，北京租房，北京租房，北京租房")
     }
     
     func mayahowtogroup() {
