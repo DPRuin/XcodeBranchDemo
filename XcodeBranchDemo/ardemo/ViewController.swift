@@ -45,6 +45,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         beijingzufang()
         beijingzufang2()
+        beijingzufang3()
     }
     
     func beijingzufang() {
@@ -52,6 +53,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     func beijingzufang2() {
         print("北京租房，北京租房，北京租房，北京租房")
+    }
+    func beijingzufang3() {
+        print("北京租房3，北京租房3，北京租房3，北京租房3")
     }
     
     func mayahowtogroup() {
