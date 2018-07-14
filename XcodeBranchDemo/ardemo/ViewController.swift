@@ -43,12 +43,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         xiaofanglizhile()
         mayahowtogroup()
         
-        beijingzufang()
-
+        makeAFNForiOSNewVersion()
     }
     
-    func beijingzufang() {
-        print("北京租房，北京租房，北京租房，北京租房")
+    func makeAFNForiOSNewVersion() {
+        print("make AFN For iOS 11.4")
     }
     
     func mayahowtogroup() {
