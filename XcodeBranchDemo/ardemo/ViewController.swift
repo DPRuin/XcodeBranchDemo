@@ -44,9 +44,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         mayahowtogroup()
         
         makeAFNForiOSNewVersion()
-        
         gongsiyaozuodadetiaozhen()
-        
         haizeiwang()
     }
     
