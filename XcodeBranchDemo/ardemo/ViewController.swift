@@ -47,6 +47,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         gongsiyaozuodadetiaozhen()
         
+        haizeiwang()
+    }
+    
+    func haizeiwang() {
+        print("haizeiwang")
     }
     
     func gongsiyaozuodadetiaozhen() {
