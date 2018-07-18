@@ -46,6 +46,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         makeAFNForiOSNewVersion()
         gongsiyaozuodadetiaozhen()
         haizeiwang()
+        luqixiuzijiayougan()
+    }
+    
+    func luqixiuzijiayougan() {
+        print("luqixiuzijiayougan")
     }
     
     func haizeiwang() {
