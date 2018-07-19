@@ -44,16 +44,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         mayahowtogroup()
         
         makeAFNForiOSNewVersion()
-        gongsiyaozuodadetiaozhen()
-        luqixiuzijiayougan()
-    }
-    
-    func luqixiuzijiayougan() {
-        print("luqixiuzijiayougan")
-    }
-    
-    func gongsiyaozuodadetiaozhen() {
-        print("公司要做大的调整")
     }
     
     func makeAFNForiOSNewVersion() {
