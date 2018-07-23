@@ -44,6 +44,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         makeAFNForiOSNewVersion()
         cctvNextWeekCode()
+        zhenyaoquAmerica()
+        
+    }
+    
+    func zhenyaoquAmerica() {
+        print("zhenyaoquAmerica")
     }
     
     func cctvNextWeekCode() {
