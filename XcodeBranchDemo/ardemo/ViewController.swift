@@ -46,6 +46,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         cctvNextWeekCode()
         zhenyaoquAmerica()
         
+        playAudio()
+    }
+    
+    func playAudio() {
+        print("playAudio")
     }
     
     func zhenyaoquAmerica() {
