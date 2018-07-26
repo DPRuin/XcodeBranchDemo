@@ -47,6 +47,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         zhenyaoquAmerica()
         
         playAudio()
+        ImSoTired()
+    }
+    
+    func ImSoTired() {
+        print("ImSoTired")
     }
     
     func playAudio() {
