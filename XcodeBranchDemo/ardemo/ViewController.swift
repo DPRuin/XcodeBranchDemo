@@ -48,6 +48,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         playAudio()
         ImSoTired()
+        whatIsCodable()
+    }
+    
+    func whatIsCodable() {
+        print("codable 可以代替 ")
     }
     
     func ImSoTired() {
