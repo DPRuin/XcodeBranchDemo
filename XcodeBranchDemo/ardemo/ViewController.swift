@@ -49,6 +49,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         playAudio()
         ImSoTired()
         whatIsCodable()
+        yuedishangxian()
+    }
+    
+    func yuedishangxian() {
+        print("yuedishangxian")
     }
     
     func whatIsCodable() {
