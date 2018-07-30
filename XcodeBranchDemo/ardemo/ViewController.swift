@@ -50,6 +50,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         ImSoTired()
         whatIsCodable()
         yuedishangxian()
+        xiangjiquanxiang()
+    }
+    
+    func xiangjiquanxiang() {
+        print("xiangjiquanxiang")
     }
     
     func yuedishangxian() {
