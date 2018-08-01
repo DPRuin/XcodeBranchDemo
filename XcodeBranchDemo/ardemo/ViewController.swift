@@ -51,6 +51,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         whatIsCodable()
         yuedishangxian()
         xiangjiquanxiang()
+        
+    }
+    
+    func jiejuebug() {
+        print("jiejuebug")
     }
     
     func xiangjiquanxiang() {
