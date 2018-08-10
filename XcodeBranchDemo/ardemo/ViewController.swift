@@ -50,7 +50,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         ImSoTired()
         whatIsCodable()
         yuedishangxian()
+        fuckCCTV()
         
+    }
+    
+    func fuckCCTV() {
+        print("fuckCCTV")
     }
     
     func jiejuebug() {
