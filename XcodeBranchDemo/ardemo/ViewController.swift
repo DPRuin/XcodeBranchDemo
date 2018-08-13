@@ -49,22 +49,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         playAudio()
         ImSoTired()
         whatIsCodable()
-        yuedishangxian()
-        fuckCCTV()
-        
-    }
-    
-    func fuckCCTV() {
-        print("fuckCCTV")
+
     }
     
     func jiejuebug() {
         print("jiejuebug")
-    }
-    
-    
-    func yuedishangxian() {
-        print("yuedishangxian")
     }
     
     func whatIsCodable() {
