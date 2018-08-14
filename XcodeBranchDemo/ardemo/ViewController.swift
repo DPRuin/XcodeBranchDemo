@@ -43,7 +43,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         mayahowtogroup()
         
         makeAFNForiOSNewVersion()
-        cctvNextWeekCode()
         zhenyaoquAmerica()
         
         playAudio()
@@ -71,11 +70,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func zhenyaoquAmerica() {
         print("zhenyaoquAmerica")
     }
-    
-    func cctvNextWeekCode() {
-        print("下周要集成新的代码")
-    }
-    
     
     func makeAFNForiOSNewVersion() {
         print("make AFN For iOS 11.4")
