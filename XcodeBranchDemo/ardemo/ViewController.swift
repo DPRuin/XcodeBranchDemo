@@ -46,7 +46,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         zhenyaoquAmerica()
         
         playAudio()
-        ImSoTired()
         whatIsCodable()
 
     }
@@ -57,10 +56,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func whatIsCodable() {
         print("codable 可以代替 ")
-    }
-    
-    func ImSoTired() {
-        print("ImSoTired")
     }
     
     func playAudio() {
