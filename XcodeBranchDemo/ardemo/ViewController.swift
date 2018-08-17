@@ -40,12 +40,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // 课余时间做个AR游戏吧
         makeARDragonGame()
         whaitIsgugeAnimation()
-        mayahowtogroup()
         
         makeAFNForiOSNewVersion()
         zhenyaoquAmerica()
         
-        playAudio()
         whatIsCodable()
 
     }
@@ -58,20 +56,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         print("codable 可以代替 ")
     }
     
-    func playAudio() {
-        print("playAudio")
-    }
-    
     func zhenyaoquAmerica() {
         print("zhenyaoquAmerica")
     }
     
     func makeAFNForiOSNewVersion() {
         print("make AFN For iOS 11.4")
-    }
-    
-    func mayahowtogroup() {
-        print("maya怎么分组")
     }
     
     func whaitIsgugeAnimation() {
